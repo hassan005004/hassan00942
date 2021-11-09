@@ -8,14 +8,14 @@ use Illuminate\Http\Request;
 class Paypal extends Controller
 {
     // live account
-    // protected static $username = 'AUvPdMHE6QXB0q-goNn-t3UdME-vk6u4dAE-oJ4BeZJDaroPI1vD-L3dK-j3rIQU8tXaOmwLc008'; incorrect
-    // protected static $password = 'EInnNFAzMWFaXgeu82JCLAhpcSnoVKnWLEGS6IvAG7vWGvMo20nvVNrzRKCF8h3EVXgHQNUFm5nv'; incorrect
+    // protected static $username = 'AUvPdMHE6QXB0q-goNn-t3UdME-vk6u4dAE-oJ4BeZJDaroPI1vD-L3dK-j3rIQU8tXaOmwLc008s'; incorrect
+    // protected static $password = 'EInnNFAzMWFaXgeu82JCLAhpcSnoVKnWLEGS6IvAG7vWGvMo20nvVNrzRKCF8h3EVXgHQNUFm5nvw'; incorrect
     // protected static $getBarrierTokenAPI = 'https://api-m.paypal.com/v1/oauth2/token';
     // protected static $requestPaymentPayoputAPI = 'https://api-m.paypal.com/v1/payments/payouts';
 
     // sandbox account
-    protected static $username = 'AWovLJcCdhPCmnC6LmQ8vWmcLRg6epcbtxC7m9yafafk0ttZvIqsnnS0OAmgBO-FCjJ0UxzCrz6B8bx2';
-    protected static $password = 'EL9VypGB5URfCP8A-suYzGTQH3TK9D19M8_MQ6aHlE8CiiGAwUp1KvijzCn9doEgENsmEmePwxWg_lYM';
+    protected static $username = 'AWovLJcCdhPCmnC6LmQ8vWmcLRg6epcbtxC7m9yafafk0ttZvIqsnnS0OAmgBO-FCjJ0UxzCrz6B8b'; // incorrect
+    protected static $password = 'EL9VypGB5URfCP8A-suYzGTQH3TK9D19M8_MQ6aHlE8CiiGAwUp1KvijzCn9doEgENsmEmePwxWg_l'; // incorrect
     protected static $getBarrierTokenAPI = 'https://api-m.sandbox.paypal.com/v1/oauth2/token';
     protected static $requestPaymentPayoputAPI = 'https://api-m.sandbox.paypal.com/v1/payments/payouts';
 
